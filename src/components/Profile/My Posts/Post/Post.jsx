@@ -7,7 +7,7 @@ const Post = (props) => {
             <img src='https://uprostim.com/wp-content/uploads/2021/03/image096-74.jpg'/>
             {props.message}
             <div>
-                <span>like {props.like}</span>
+                <span>like {props.likesCount}</span>
             </div>
         </div>
     )
