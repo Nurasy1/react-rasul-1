@@ -5,11 +5,14 @@ import Post from "./Post/Post";
 const MyPosts = (props) => {
     debugger;
     return (
-        <div>
-            My Post
+        <div className={s.postBlock}>
+           <h2>My Post</h2>
             <div>
+                <div>
                 <textarea></textarea>
-                <button>fewfw</button>
+                    </div><div>
+                <button>Add post</button>
+            </div>
             </div>
             <div className={s.posts}>
                 <Post message='Hi, How are you?' likesCount='20'/>
